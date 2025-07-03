@@ -1,20 +1,47 @@
-<<<<<<< HEAD
-# stopwatch_app_task
+# ⏱️ Stopwatch App — CodeCraft Internship Task #2
 
-A new Flutter project.
+This is my second internship task at **CodeCraft**, where I was assigned to build a **basic stopwatch app** in Flutter that includes:
 
-## Getting Started
+* 🕐 Start, pause, and reset stopwatch functionality
+* ⏳ Real-time display of minutes, seconds, and milliseconds
+* 🎨 Aesthetic splash screen with app logo
+* 🔊 Button press and reset sounds for enhanced user experience
+* 📱 Smooth animations and a gradient-themed UI
 
-This project is a starting point for a Flutter application.
+---
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+* **Flutter UI** with `MaterialApp`, `StatelessWidget`, `StatefulWidget`
+* **Splash Screen** with fade animation using `AnimationController`
+* **Stopwatch logic** handled via Dart's `Stopwatch` and `Timer`
+* **Audio feedback** using the `audioplayers` package
+* **Button animations** for tactile feel
+* **Custom fonts and themes** for professional styling
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# CODECRAFT-AD-02
->>>>>>> 67d6f353ba343434d02939365efc5199a7c63887
+## 🔧 Technologies & Packages
+
+* `flutter` – UI framework
+* `audioplayers` – for playing button and reset sound effects
+* `Roboto` & `RobotoMono` fonts
+* `LinearGradient`, `BoxShadow`, and `FadeTransition` – for modern design
+
+---
+
+## 📂 Project Structure
+
+```text
+assets/
+  └── images/
+      └── logo.png
+  └── sounds/
+      ├── button-press-beep-269718.mp3
+      └── beep-329314.mp3
+  └── screenshots/
+      ├── ss
+```
+## 📸 Screenshots
+
+ Stopwatch Screen |
+| ![](assets/screenshots/ss.jpeg) |
